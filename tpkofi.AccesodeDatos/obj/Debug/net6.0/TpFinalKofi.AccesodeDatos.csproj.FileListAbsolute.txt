@@ -1,0 +1,15 @@
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\bin\Debug\net6.0\TpFinalKofi.AccesodeDatos.deps.json
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\bin\Debug\net6.0\TpFinalKofi.AccesodeDatos.dll
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\bin\Debug\net6.0\TpFinalKofi.AccesodeDatos.pdb
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\bin\Debug\net6.0\TpFinalKofi.Dominio.dll
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\bin\Debug\net6.0\TpFinalKofi.Dominio.pdb
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.csproj.AssemblyReference.cache
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.AssemblyInfoInputs.cache
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.AssemblyInfo.cs
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.csproj.CoreCompileInputs.cache
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.csproj.CopyComplete
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.dll
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\refint\TpFinalKofi.AccesodeDatos.dll
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\TpFinalKofi.AccesodeDatos.pdb
+C:\Users\kofik\source\repos\tpkofi.AccesodeDatos\obj\Debug\net6.0\ref\TpFinalKofi.AccesodeDatos.dll
