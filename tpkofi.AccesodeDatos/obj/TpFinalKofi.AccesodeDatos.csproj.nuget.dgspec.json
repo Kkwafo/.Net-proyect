@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kofik\\source\\repos\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj": {
+    "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
         "projectName": "TpFinalKofi.Dominio",
-        "projectPath": "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
-        "packagesPath": "C:\\Users\\kofik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kofik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,45 +45,30 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kofik\\source\\repos\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj": {
+    "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kofik\\source\\repos\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj",
         "projectName": "TpFinalKofi.AccesodeDatos",
-        "projectPath": "C:\\Users\\kofik\\source\\repos\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj",
-        "packagesPath": "C:\\Users\\kofik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kofik\\source\\repos\\tpkofi.AccesodeDatos\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\tpkofi.AccesodeDatos\\TpFinalKofi.AccesodeDatos.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\tpkofi.AccesodeDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kofik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj": {
-                "projectPath": "C:\\Users\\kofik\\source\\repos\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj"
+              "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj"
               }
             }
           }
@@ -112,37 +97,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
