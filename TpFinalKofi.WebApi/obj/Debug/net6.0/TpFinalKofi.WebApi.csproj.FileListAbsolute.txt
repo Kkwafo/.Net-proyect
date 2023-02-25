@@ -30,3 +30,13 @@ C:\Users\kofik\source\repos\TpFinalKofi.WebApi\obj\Debug\net6.0\refint\TpFinalKo
 C:\Users\kofik\source\repos\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.pdb
 C:\Users\kofik\source\repos\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.genruntimeconfig.cache
 C:\Users\kofik\source\repos\TpFinalKofi.WebApi\obj\Debug\net6.0\ref\TpFinalKofi.WebApi.dll
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.csproj.AssemblyReference.cache
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.AssemblyInfoInputs.cache
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.AssemblyInfo.cs
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.dll
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\refint\TpFinalKofi.WebApi.dll
+C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\TpFinalKofi.WebApi\obj\Debug\net6.0\TpFinalKofi.WebApi.pdb
