@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TpFinalKofi.Dominio.Models
+﻿namespace TpFinalKofi.Dominio.Models
 {
     public class Cliente
     {
@@ -19,7 +12,7 @@ namespace TpFinalKofi.Dominio.Models
         public DateTime FechaDeNacimiento { get; set; }
         public override string ToString()
         {
-            return $"Nombre: {Nombre} - Edad: {Edad} - FechaNacimiento: {FechaDeNacimiento}";
+            return $"Id {Id} -  Nombre: {Nombre} - Edad: {Edad} - FechaNacimiento: {FechaDeNacimiento}";
         }
 
     }
