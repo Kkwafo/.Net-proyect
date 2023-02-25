@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using TpFinalKofi.Dominio.Models;
 
-namespace TpFinalKofi.AccesodeDatos.Repositories
+namespace TpFinalKofi.Dominio.Interfaces
 {
     public interface IProductoRepository
     {
-        Cliente GetProducto(string nombre);
-        public List<Cliente> GetProducto();
-        List<Cliente> EliminarProducto(string nombre);
-        List<Cliente> ModificarProducto(Cliente nombre);
-
+        Producto GetById(int id);
+        IEnumerable<Producto> GetAll();
+        void InsertarProducto(Producto producto);
+        void ActualizarProducto(Producto producto);
+        void EliminarProducto(int id);
     }
 }
