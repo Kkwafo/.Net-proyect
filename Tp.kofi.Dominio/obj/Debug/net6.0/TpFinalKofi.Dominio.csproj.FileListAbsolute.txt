@@ -22,3 +22,15 @@ C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\Tp.kofi.Dominio\bin\D
 C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\Tp.kofi.Dominio\bin\Debug\net6.0\TpFinalKofi.Dominio.dll
 C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\Tp.kofi.Dominio\bin\Debug\net6.0\TpFinalKofi.Dominio.pdb
 C:\Users\kofik\OneDrive\Escritorio\TpFinalNet\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\ref\TpFinalKofi.Dominio.dll
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\bin\Debug\net6.0\TpFinalKofi.Dominio.deps.json
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\bin\Debug\net6.0\TpFinalKofi.Dominio.dll
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\bin\Debug\net6.0\TpFinalKofi.Dominio.pdb
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.AssemblyInfo.cs
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.dll
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\refint\TpFinalKofi.Dominio.dll
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\TpFinalKofi.Dominio.pdb
+C:\Users\Admin\Documents\Kofi\.Net-proyect\.Net-proyect\Tp.kofi.Dominio\obj\Debug\net6.0\ref\TpFinalKofi.Dominio.dll

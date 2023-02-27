@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wa05nWbE8opE3lukHbaM+nvFZ9dP6W8AsSP7IBvi+vd1mH62zFXnxUExSCX/UthZ43ZX4FnRd/cmXsFroYRoJw==",
+  "dgSpecHash": "NoUbuZm+DKZNuKHT8XzZrX0v7NvDtgdm+TjxdoJQ27SADK9v9R5KskuZjJuaM/ZnI9T4qjEHIoxtUQQrWFdd5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kofik\\OneDrive\\Escritorio\\TpFinalNet\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\kofik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\kofik\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\kofik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Kofi\\.Net-proyect\\.Net-proyect\\Tp.kofi.Dominio\\TpFinalKofi.Dominio.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
