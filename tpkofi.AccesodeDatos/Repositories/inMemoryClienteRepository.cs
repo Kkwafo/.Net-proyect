@@ -6,11 +6,11 @@ namespace TpFinalKofi.AccesodeDatos.Repositories
 {
     public class InMemoryClienteRepository : IClienteRepository
     {
-        private List<Cliente> clientes;
+      
 
-        public InMemoryClienteRepository(List<Cliente> clientes = null)
+        public InMemoryClienteRepository(List<Cliente>? clientes = null)
         {
-            _clientes = clientes ?? new List<Cliente>();
+           var _clientes = clientes ?? new List<Cliente>();
         }
 
         private List<Cliente> Clientes = new()
@@ -36,7 +36,8 @@ namespace TpFinalKofi.AccesodeDatos.Repositories
                 Email= "algunmail@gmail.com",
                 Nacionalidad="Argentina",
                 FechaDeNacimiento=  DateTime.Now
-            }
+            },
+
         };
 
         public void EliminarCliente(int id)
@@ -50,7 +51,7 @@ namespace TpFinalKofi.AccesodeDatos.Repositories
 
         public Cliente GetCliente(string nombre)
         {
-            Cliente clienteResult = null;
+            Cliente? clienteResult = null;
             foreach (var cliente in Clientes)
             {
                 if (cliente.Nombre == nombre)
@@ -82,60 +83,9 @@ namespace TpFinalKofi.AccesodeDatos.Repositories
 
         public void InsertarCliente(Cliente cliente)
         {
-
+            
             Clientes.Add(cliente);
-            Console.WriteLine("Ingrese el nombre del cliente:");
-            var nombre = Console.ReadLine();
 
-            Console.WriteLine("Ingrese el apellido del cliente:");
-            var apellido = Console.ReadLine();
-
-            Console.WriteLine("Ingrese la edad del cliente:");
-            var edadString = Console.ReadLine();
-            int edad;
-            //valido la edad del wacho
-            while (!int.TryParse(edadString, out edad))
-            {
-                Console.WriteLine("La edad ingresada no es válida. Ingrese un número entero:");
-                edadString = Console.ReadLine();
-            }
-
-            Console.WriteLine("Ingrese la ciudad del cliente:");
-            var ciudad = Console.ReadLine();
-
-            Console.WriteLine("Ingrese el email del cliente:");
-            var email = Console.ReadLine();
-
-            Console.WriteLine("Ingrese la nacionalidad del cliente:");
-            var nacionalidad = Console.ReadLine();
-
-            Console.WriteLine("Ingrese la fecha de nacimiento del cliente (formato dd/mm/yyyy):");
-            var fechaNacimientoString = Console.ReadLine();
-            DateTime fechaNacimiento;
-            //valido cuando nacio --> no quiero leer mas documentacion
-            while (!DateTime.TryParseExact(fechaNacimientoString, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out fechaNacimiento))
-            {
-                Console.WriteLine("La fecha ingresada no es válida. Ingrese una fecha en formato dd/mm/yyyy:");
-                fechaNacimientoString = Console.ReadLine();
-            }
-
-            var clienteNuevo = new Cliente()
-            {
-                
-                Nombre = nombre,
-                Apellido = apellido,
-                Edad = edad,
-                Ciudad = ciudad,
-                Email = email,
-                Nacionalidad = nacionalidad,
-                FechaDeNacimiento = fechaNacimiento
-            };
-
-            var clienteRepository = new InMemoryClienteRepository();
-            clienteRepository.InsertarCliente(clienteNuevo);
-            Clientes.Add(clienteNuevo);
-            Console.WriteLine("Cliente creado exitosamente. Presione una tecla para continuar...");
-            Console.ReadKey();
         }
 
 

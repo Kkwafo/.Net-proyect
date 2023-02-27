@@ -17,10 +17,9 @@ namespace TpFinalKofi.Dominio.Repositories
             this.productos = listaDeProductos;
         }
 
-        public InMemoryProductoRepository()
-        {
+ 
 
-            productos = new List<Producto>()
+            private List<Producto> Productos = new()
             {
                 new Producto
                 {
@@ -28,18 +27,25 @@ namespace TpFinalKofi.Dominio.Repositories
                     Name = "Fernet",
                     Price = "100",
                     Description = "70-30 con coca pa"
+                },
+                new Producto
+                {
+                    Id = 2,
+                    Name = "sixpack",
+                    Price = "200",
+                    Description = "es domingo y aun no tome uno"
                 }
             };
-        }
+        
 
         public Producto GetById(int id)
         {
-            return productos.FirstOrDefault(p => p.Id.Equals(id));
+            return Productos.FirstOrDefault(p => p.Id.Equals(id)); //para el error CS0029 le pondri un .toString
         }
 
-        public IEnumerable<Producto> GetAll()
+        public List<Producto> GetProductos()
         {
-            return productos;
+            return Productos;
         }
 
         public void InsertarProducto(Producto producto)
@@ -49,8 +55,8 @@ namespace TpFinalKofi.Dominio.Repositories
                 throw new ArgumentNullException(nameof(producto));
             }
 
-            producto.Id = productos.Any() ? productos.Max(p => p.Id) + 1 : 1.ToString(); ;
-            productos.Add(producto);
+            producto.Id = productos.Any() ? productos.Max(p => p.Id) + 1 : 1 ;
+            Productos.Add(producto);
         }
 
         public void ActualizarProducto(Producto producto)
@@ -60,7 +66,7 @@ namespace TpFinalKofi.Dominio.Repositories
                 throw new ArgumentNullException(nameof(producto));
             }
 
-            var productoExistente = productos.FirstOrDefault(p => p.Id == producto.Id);
+            var productoExistente = Productos.FirstOrDefault(p => p.Id == producto.Id);
 
             if (productoExistente == null)
             {
@@ -74,14 +80,14 @@ namespace TpFinalKofi.Dominio.Repositories
 
         public void EliminarProducto(int id)
         {
-            var productoExistente =  productos.FirstOrDefault(p => p.Id.Equals(id)); ;
+            var productoExistente =  Productos.FirstOrDefault(p => p.Id.Equals(id)); ;
 
             if (productoExistente == null)
             {
                 throw new InvalidOperationException("El producto no existe.");
             }
 
-            productos.Remove(productoExistente);
+            Productos.Remove(productoExistente);
         }
     }
 }

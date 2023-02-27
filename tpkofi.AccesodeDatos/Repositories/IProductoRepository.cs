@@ -6,7 +6,7 @@ namespace TpFinalKofi.Dominio.Interfaces
     public interface IProductoRepository
     {
         Producto GetById(int id);
-        IEnumerable<Producto> GetAll();
+        public List<Producto> GetProductos();
         void InsertarProducto(Producto producto);
         void ActualizarProducto(Producto producto);
         void EliminarProducto(int id);
